@@ -875,16 +875,6 @@ ROLES = {
                 Prefix = "MG"
             },
             {
-                Name = "Tanker",
-                Core = true,
-                Max = 15,
-                Models = US_TANKER_MODELS,
-                ForceModels = true,
-                Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "TK"
-            },
-            {
                 Name = "Engineer",
                 Core = true,
                 Max = 15,
@@ -1159,16 +1149,6 @@ ROLES = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_murlock_engineering_builder", "ent_spawner"},
                 Prefix = "MG"
-            },
-            {
-                Name = "Tanker",
-                Core = true,
-                Max = 15,
-                Models = DE_TANKER_MODELS,
-                ForceModels = true,
-                Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "TK"
             },
             {
                 Name = "Engineer",
@@ -1567,7 +1547,7 @@ WEAPON_STATS = {
     cw_berettam1 = { Damage = 34, Recoil = 1.15, HorizontalRecoilMod = 0.75, Range = 35, Falloff = 0.3 },
     cw_1918_30 = { Damage = 36, Recoil = 1.4, HorizontalRecoilMod = 0.85, Range = 50, Falloff = 0.25 },
     cw_ovp1918 = { Damage = 34, Recoil = 1.15, HorizontalRecoilMod = 0.75, Range = 35, Falloff = 0.3 },
-    cw_villarperosa = { Damage = 20, Recoil = 0.9, HorizontalRecoilMod = 0.75, Range = 35, Falloff = 0.3 },
+    cw_villarperosa = { Damage = 30, Recoil = 0.9, HorizontalRecoilMod = 0.75, Range = 35, Falloff = 0.3 },
     cw_bredamod30 = { Damage = 55, Recoil = 2, AimSpread = 0.006, HorizontalRecoilMod = 1.25, Range = 80, Falloff = 0.2 },
     cw_perinom = { Damage = 55, Recoil = 2.05, AimSpread = 0.008, HorizontalRecoilMod = 1.3, Range = 80, Falloff = 0.2 },
     cw_berettam1934 = { Damage = 28, Recoil = 0.8, HorizontalRecoilMod = 1, Range = 25, Falloff = 0.3 },
